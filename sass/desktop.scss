@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    text-transform: uppercase;
+    display: grid;
+    grid-template-rows: 1fr 6fr 2.5fr 2.5fr 2fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+      "header menu menu menu"
+      "hero hero hero hero"
+      "main main . imagen"
+      "main main . extra"
+      "banner banner banner banner";
+  }
+
+  .item {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+  }
